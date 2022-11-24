@@ -3,6 +3,7 @@ package java;
 public class Person {
     int height;
     String father;
+    int num;
 
     public int getHeight() {
         return height;
