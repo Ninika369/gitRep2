@@ -13,4 +13,10 @@ public class Student {
     public Student() {
 
     }
+
+    public Student(int a, int w, String g) {
+        weight = w;
+        age = a;
+        gender = g;
+    }
 }
