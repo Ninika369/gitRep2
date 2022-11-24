@@ -2,7 +2,7 @@ package java;
 
 public class Person {
     int height;
-    String name;
+    String father;
 
     public int getHeight() {
         return height;
