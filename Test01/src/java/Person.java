@@ -2,6 +2,7 @@ package java;
 
 public class Person {
     int height;
+    int num;
 
     public int getHeight() {
         return height;
