@@ -6,6 +6,15 @@ package java;
  * @Description: java
  */
 public class Student {
+    @Override
+    public String toString() {
+        return "Student{" +
+                "weight=" + weight +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
+
     public int weight;
     public int age;
     public String gender;
